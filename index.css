@@ -1,0 +1,179 @@
+*{
+  margin:0px;
+  padding:0px; 
+}
+body{
+  background-color:#65ec74;
+}
+.tip-calculator-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title {
+  background-color: blue;
+  color: white;
+  height: 30pxpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width:100%;
+  padding-top: 0%;
+  margin-top: 0px;
+  padding-left: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+  background-color: blue;
+  color: white;
+  height: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width:100%;
+  padding-top: 0%;
+  margin-top: 0px;
+  padding-left: 1100px;
+}
+label{
+  padding-right:300px;
+  padding-bottom: 10px;
+}
+
+.bill-section {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:20px;
+}
+
+.bill-input {
+  height: 20px;
+  width: 1000px;
+  margin-right: 250px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.nani{
+  font-size:20px;
+  padding-left: 100px;
+}
+
+.service-section {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top:0px;
+}
+
+.service-select {
+  font-size: 15px;
+ border:5px solid #00FFFF;
+  margin-top:0px;
+  padding:5px;
+}
+
+.customer-name-input {
+  font-size: 15px;
+  padding:5px;
+}
+
+.add-customer-button {
+  background-color: red;
+  color: white;
+  margin-right:400px;
+  padding:5px;
+}
+
+.customer-tips {
+  font-size: 20px;
+  height: 25%;
+  margin-top: 0px;
+  text-align: start;
+  width: 1000px;
+    margin-right: 240px;
+}
+
+.customer-tips-title {
+
+  font-weight: bold;
+  margin-right:150px;
+  text-align: center;
+
+}
+
+.total-section {
+  font-size: 20px;
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 250px;   
+}
+
+.calculate-button {
+  background-color: #ff9500;
+  color: white;
+  text-align:center;
+}
+
+.footer {
+  font-size: 20px;
+  text-align: center;
+  height: 20px;
+  width:1004px;
+  background-color:black;
+  color:white;
+  margin-right:250px;
+  margin-top:0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#root{
+  padding:0px;
+}
+.dan{
+  display:flex;
+  border:2px solid black;
+  width:1000px;
+  height:60px;
+  text-align:center;
+}
+.total-customer{
+  padding-top: 10px;
+    padding-bottom: 5px;
+}
+.total-customer{
+  float: left;
+  padding: 10px;
+  width:550px;
+  height: 60px; 
+}
+.total-tip{
+  float: left;
+  padding: 10px;
+  width:550px;  
+  height: 60px; 
+}
+
+
+.dan:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.v1{
+  border: width 200px;
+  border-block-color: black;
+}
+hr.customer-tips {
+  border: 10px solid black;
+  border-radius: 5px;
+}
